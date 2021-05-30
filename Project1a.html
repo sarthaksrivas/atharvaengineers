@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+  <link rel="stylesheet" type="text/css" href="Project1.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+#upar_ka
+{
+  background-color: #bfbfbf;
+  height: 70px;
+  margin-top: 0px;
+} 
+
+*{
+margin: 0;
+padding: 0;
+}
+
+.heading {
+
+  color: black;
+  padding-left: 60px;
+  padding-top: 40px;
+  font-family: Ayuthaya;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  margin-top: 20px;
+
+}
+th, td {
+  padding: 10px;
+} 
+
+</style>
+<style>
+#slider	
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+
+<body>
+<section id="upar_ka">
+<h1 style="font-family: Times New Roman; margin-left: 20px;padding-top: 12px; font-size: 34px">Turbine Erection and Commissioning</h1>
+  
+</section>
+
+<section>
+	<h1 style="margin-top: 90px"></h1>
+	<section id="slider">
+	<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="C:\Users\Asus\Desktop\WEBSITE 2\Images\pic1.png" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <img src="C:\Users\Asus\Desktop\WEBSITE 2\Images\pic2.png" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <img src="C:\Users\Asus\Desktop\WEBSITE 2\Images\pic3.png" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <img src="C:\Users\Asus\Desktop\WEBSITE 2\Images\pic4.png" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <img src="C:\Users\Asus\Desktop\WEBSITE 2\Images\pic5.png" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <img src="C:\Users\Asus\Desktop\WEBSITE 2\Images\pic6.png" style="width:100%">
+ 
+</div>
+
+<div class="mySlides fade">
+  <img src="C:\Users\Asus\Desktop\WEBSITE 2\Images\pic7.png" style="width:100%">
+ 
+</div>
+
+<div class="mySlides fade">
+  <img src="C:\Users\Asus\Desktop\WEBSITE 2\Images\pic8.png" style="width:100%">
+ 
+</div>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  
+</div>
+
+</section>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
+</script>
+
+<section>
+
+<div class="heading">
+<h2 style="margin-right: 60px; margin-top: 30px"><center>Work Order Refernce:</center></h2></div>
+
+<table style="width: 90%; margin-left: 60px;margin-bottom: 20px">
+  <tr>
+    <th>Sr No.</th>
+    <th>Site Name</th> 
+    <th>Site Address(State)</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Yash Rao</td>
+    <td>Maharashta</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>A.B Grain</td>
+    <td>Punjab</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>BILT</td>
+    <td>Maharashta</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Dalmia Cement</td>
+    <td>Tamil Nadu</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Auro Mira</td>
+    <td>Tamil Nadu</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Purna SSk</td>
+    <td>Maharashta</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Dhudganga</td>
+    <td>Maharashta</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Indorama</td>
+    <td>Maharashta</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>GMT</td>
+    <td>Maharashta</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Gangamai</td>
+    <td>Maharashta</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Sivalaya Ispat</td>
+    <td>Chhattisgarh</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Niros Ispat</td>
+    <td>Chhattisgarh</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Greta Energy</td>
+    <td>Maharashta</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Gammon</td>
+    <td>Maharashta</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Shivratna</td>
+    <td>Maharashta</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Orient Paper(Maintainance Site)</td>
+    <td>Madhya Pradesh</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>Chettinand(IBR Piping Only)</td>
+    <td>Andra Pradesh</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>East Delhi Waste Processing Co.Ltd.</td>
+    <td>Gajipur,Delhi</td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>Rashmi Metallic Ltd.</td>
+    <td>West Bengal</td>
+  </tr> 
+  <tr>
+    <td>20</td>
+    <td>Hindalco Mahan Aluminium 6X150 MW(E&I Work)</td>
+    <td>Singrauli,MP</td>
+  </tr>
+  
+</table>  
+</section>
+
+<section>
+<div class="heading">
+<h2 style="margin-right: 60px"><center>Annexure - 2 Tool List:</center></h2></div>
+
+<table style="width: 90%; margin-left: 60px;margin-bottom:20px">
+  <tr>
+    <th>Sr No.</th>
+    <th>Description</th> 
+    <th>Min. Quantity</th>
+    <th>Size/Capacity</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Welding Generator</td>
+    <td>3 Nos</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Welding Transformer</td>
+    <td>3 Nos</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Hydraulic Jack</td>
+    <td>2 Nos</td>
+    <td>100mm lift,50T</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Hydraulic Jack</td>
+    <td>2 Nos</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Slings</td>
+    <td>2 Pair of each</td>
+    <td>1/2",1" of 6mtr</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Slings</td>
+    <td>1 Pair</td>
+    <td>2" of 6mtr</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>D-Shackle</td>
+    <td>2 Nos. of each</td>
+    <td>1T,2T,5T,10T,25T</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Eye Bolts</td>
+    <td>2 Nos of each</td>
+    <td>6MM - 25MM</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Chain Pulley Block</td>
+    <td>2 Nos of each</td>
+    <td>1T,2T,5T</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Angel Grinder - AG -7 GrindingM/C</td>
+    <td>2 Nos of each</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Angel Grinder - AG -4 GrindingM/C</td>
+    <td>2 Nos.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Flexible Grinder FF2</td>
+    <td>1 Nos.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Driling Machine</td>
+    <td>1 No. of each</td>
+    <td>1/2" , 1"</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Inside Micrometer</td>
+    <td>1 Set</td>
+    <td>1500mm</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Inside Micrometer (Small)</td>
+    <td>1 No.</td>
+    <td>25mm</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Outside Micrometer</td>
+    <td>1 Set</td>
+    <td>0-25</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>Outside Micrometer</td>
+    <td>1 Set</td>
+    <td>0-150</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>Outside Micrometer</td>
+    <td>1 Set</td>
+    <td>0-300</td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>Depth Micrometer</td>
+    <td>1 Set</td>
+    <td>0-100mm</td>
+  </tr> 
+  <tr>
+    <td>20</td>
+    <td>Dial Gauge with Magnetic Base</td>
+    <td>6 Set</td>
+    <td>0-10</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Puppy Dial Gauge</td>
+    <td>3 Set</td>
+    <td>0-5mm</td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>Verniear Caliper</td>
+    <td>1 Set</td>
+    <td>0-150 & 0-300</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Master level</td>
+    <td>1no.</td>
+    <td>4"</td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>Master level</td>
+    <td>1 No.</td>
+    <td>6"</td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>Allen -Key Set</td>
+    <td>1 Set of each</td>
+    <td>in MM & Inches</td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>Torque Wench With Multifier</td>
+    <td>1 Set</td>
+    <td>0-1000NM</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>Box Spaner Set (minor & Major)</td>
+    <td>1 Set</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Open Jaw Spaner Set Double end(Minor & Major)</td>
+    <td>1 Set</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>Open Jaw Spaner Set Single End</td>
+    <td>1 no. each</td>
+    <td>41,48,50,55&60</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>Hammering Spaner</td>
+    <td>1 Set</td>
+    <td>24,27,30,32,36,42,48,50,55,65</td>
+  </tr>
+  <tr>
+    <td>31</td>
+    <td>Ring Spaner Set</td>
+    <td>1 Set</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>32</td>
+    <td>Hammer</td>
+    <td>1 Set</td>
+    <td>1lb,2lb,3lb</td>
+  <tr>
+    <td>33</td>
+    <td>Sledge Hammer(Heavy Duty)</td>
+    <td>2 Nos.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>34</td>
+    <td>Argon Welding Set</td>
+    <td>2 Set</td>
+    <td>Torch,Ceramic Nozzle,Long & Short cap,Tongston Rod</td>
+  </tr>
+  <tr>
+    <td>35</td>
+    <td>Arc Welding Set</td>
+    <td>2 Set</td>
+    <td>Welding Cable 100m for each set, Holder</td>
+  </tr>
+  <tr>
+    <td>36</td>
+    <td>Cutting Torch With Nozzle</td>
+    <td>2 Set</td>
+    <td>With Different Size Of Nozzle</td>
+  </tr>
+  <tr>
+    <td>37</td>
+    <td>Water level Tube</td>
+    <td>2 Nos.</td>
+    <td>40 mtr</td>
+  </tr>
+  <tr>
+    <td>38</td>
+    <td>Screw Driver</td>
+    <td>1 Set</td>
+    <td>6"-18"</td>
+  </tr>
+  <tr>
+    <td>39</td>
+    <td>File Flat</td>
+    <td>3 Nos.Each</td>
+    <td>6" & 12"</td>
+  </tr>
+  <tr>
+    <td>40</td>
+    <td>File Round</td>
+    <td>3 Nos.Each</td>
+    <td>6" & 12"</td>
+  </tr>
+  <tr>
+    <td>41</td>
+    <td>File Half Round</td>
+    <td>3 Nos.Each</td>
+    <td>6" & 12"</td>
+  </tr>
+  <tr>
+    <td>42</td>
+    <td>Needle File</td>
+    <td>1 Set</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>43</td>
+    <td>Trangular File</td>
+    <td>1 Nos. each</td>
+    <td>6" & 12"</td>
+  </tr>
+  <tr>
+    <td>44</td>
+    <td>Scrapping Tool</td>
+    <td>3 NOs.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>45</td>
+    <td>Cutting Plyer</td>
+    <td>2 Nos.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>46</td>
+    <td>Nose Piler</td>
+    <td>2 Nos.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>47</td>
+    <td>Chisel</td>
+    <td>4 Nos.each</td>
+    <td>6" & 2"</td>
+  </tr>
+  <tr>
+    <td>48</td>
+    <td>Oil Stone</td>
+    <td>5 Nos.</td>
+    <td>Fine & Course</td>
+  </tr>
+  <tr>
+    <td>49</td>
+    <td>Sprit Level</td>
+    <td>2 Nos.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>50</td>
+    <td>Measuring Tape 3m</td>
+    <td>1 No/Filter</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>51</td>
+    <td>Measuring Tape 5m & 15m</td>
+    <td>1 Set Each</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>52</td>
+    <td>Right Angle</td>
+    <td>5 Nos.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>53</td>
+    <td>Filler Gauge</td>
+    <td>1 Set Each</td>
+    <td>6",12" and 1mtr</td>
+  </tr>
+  <tr>
+    <td>54</td>
+    <td>Blue Tube</td>
+    <td>Sufficient Quanity</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>55</td>
+    <td>Pipe Culter</td>
+    <td>1 No.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>56</td>
+    <td>Tap Set With Handle</td>
+    <td>1 no.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>57</td>
+    <td>Nylon Belt</td>
+    <td>1 no.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>58</td>
+    <td>Slip Gauge</td>
+    <td>1 Set</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>59</td>
+    <td>Nylon Rope</td>
+    <td>Sufficient Length</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>60</td>
+    <td>Teflon Hammer</td>
+    <td>2 Nos.</td>
+    <td>25mm</td>
+  </tr>
+  <tr>
+    <td>61</td>
+    <td>Brass/Copper Rod</td>
+    <td>1 no. each</td>
+    <td>40mm</td>
+  </tr>
+  <tr>
+    <td>62</td>
+    <td>Air Hose Pipe</td>
+    <td>1 Pc</td>
+    <td>50 Mtr</td>
+  </tr>
+  <tr>
+    <td>63</td>
+    <td>Safety Helmet</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>64</td>
+    <td>Safety Goggles</td>
+    <td>Sufficient Quantity</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>65</td>
+    <td>Welding Helmets</td>
+    <td>4 Nos.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>66</td>
+    <td>Safety Belts</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>67</td>
+    <td>Hole Punch</td>
+    <td>1 Set</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>68</td>
+    <td>Centre Punch</td>
+    <td>3 Nos.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>69</td>
+    <td>Number And Letter Punch</td>
+    <td>1 Set</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>70</td>
+    <td>Pipe Bending machine</td>
+    <td></td>
+    <td>Upto 1"</td>
+  </tr>
+  <tr>
+    <td>71</td>
+    <td>Die Set</td>
+    <td>1 No.</td>
+    <td></td>
+  </tr>
+</table>  
+</section>
+
+</body>
+</html>

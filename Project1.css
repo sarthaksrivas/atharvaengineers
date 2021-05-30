@@ -1,0 +1,170 @@
+{
+	margin: 0;
+	padding: 0;
+}
+ 
+#nav-bar 
+{
+	position: sticky;
+	top:0;
+	z-index: 10;
+}
+.navbar-brand img
+{
+	height: 40px;
+	padding-left: 10px;
+}
+
+.navbar-nav li
+{
+	padding: 0 10px;
+
+ 
+}
+.navbar-nav li a 
+{
+	float: right;
+	text-align: left;
+}
+#nav-bar ul li a:hover
+{
+	color: #007bff!important;
+}
+.navbar 
+{ 
+	background: #040404;
+
+}
+.navbar-toggler
+{
+	border: none!important;
+
+}
+.nav-link
+{
+	color: #ffffff!important;
+	font-weight: 600; 
+	font-size: 16px;
+
+} 
+/*Slider*/
+/*#Slider
+{
+	width: 100%;
+	z-index: -100;
+
+}
+*/
+/* TO MAKE THE CAPTION OF SLIDER IN THE MIDDLE:- */
+/*.carousel-caption
+{
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial!important;
+
+}*/ 
+.carousel-caption h5
+{
+	color: white ;
+	font-size: 21px;
+	
+
+}
+/*About */
+#about
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+
+}
+#about .btn
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	
+}
+.about-content
+{
+	padding-top: 20px;
+}
+.skills-bar p
+{
+	margin-bottom: 6px;
+	font-weight: 600;
+
+}
+.progress-bar
+{
+	border-radius: 16px;
+}
+.progress
+{
+	border-radius: 16px !important;
+	margin-bottom: 20px;
+
+}
+
+body
+{
+	color: black;
+	font-family: Arial,sans-serif;
+	text-align: center;
+}
+a
+{
+	color: blue;
+	font-size: 18px;
+
+}
+a:hover
+{
+	color: red;
+}
+.Nav:hover
+{
+	color: red;
+
+}
+.raise:hover,  /* to raise buttons : resume and email*/
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+.Work:hover
+{
+	box-shadow: 0 0 0 5px #fff, 0 0 0 7px #0A5ACB;
+}
+
+footer
+{
+	margin-top: auto;
+	margin-bottom: 0rem;
+	font-family: Arial,sans-serif;
+}
+h1
+{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.main-text {
+    position: absolute;
+    top: 520px;
+    width: 100%;
+    color: #FFF;
+
+}
+/******************/
+
+.my-custom-scrollbar {
+position: relative;
+height: 320px;
+overflow: auto;
+}
+.table-wrapper-scroll-y {
+display: block;
+}
+
+/*-----------*/
+
+
